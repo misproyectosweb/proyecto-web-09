@@ -27,7 +27,22 @@ Para enviar la información del usuario a través del formulario de contacto se 
 -	Enviar emails vía sendmail, PHP mail(), o con SMTP.
 
 Finalmente, se utiliza una librería JavaScript llamada **SweetAlert2** para mostrar al usuario mensajes personalizados que le van a indicar si los datos digitados por el cliente en el formulario fueron enviados al buzón de correo del taller de forma  correcta o incorrecta.
+
 A continuación se presentan algunas imágenes del sitio web brevemente descrito anteriormente:
+
+![imgLandingPage_1](https://github.com/misproyectosweb/proyecto-web-09/assets/98922137/d418030a-0ee0-4a60-bcf6-be9b04947370)
+**==========================================================================**
+![imgLandingPage_2](https://github.com/misproyectosweb/proyecto-web-09/assets/98922137/50bdb1ff-6905-46de-aed0-6c84760b84e3)
+**==========================================================================**
+![imgLandingPage_3](https://github.com/misproyectosweb/proyecto-web-09/assets/98922137/8b7173e2-05bf-495d-90f3-5568ffafd555)
+**==========================================================================**
+![imgLandingPage_4](https://github.com/misproyectosweb/proyecto-web-09/assets/98922137/16b949d9-8868-4813-8981-5b0257acb9ca)
+**==========================================================================**
+![imgLandingPage_5](https://github.com/misproyectosweb/proyecto-web-09/assets/98922137/18094476-4bf2-4b1d-b28e-056a767fde3c)
+
+
+
+
 
 
 
