@@ -16,8 +16,7 @@ formulario.addEventListener('submit', (e) => {
     e.preventDefault();
     
     // Se manda a llamar a una función, la cual contiene el mensaje que mostrará al usuario
-    email(); 
-        
+    email();               
 });
 
 function email(){
@@ -42,10 +41,10 @@ function email(){
                 icon: 'success',
                 imageUrl: 'imagenes/logotallercorreo.png',        
                 imageAlt: 'logo del taller ',
-                imageWidth: 300,
-                imageHeight: 90,
+                imageWidth: 250,
+                imageHeight: 100,
                 title: 'Estado del mensaje de correo',
-                text: 'Su mensaje se envió correctamente'   
+                text: 'Tu información se envió correctamente'   
             });                        
         }
         else {
@@ -53,10 +52,10 @@ function email(){
                 icon: 'error',
                 imageUrl: 'imagenes/logotallercorreo.png',        
                 imageAlt: 'logo del taller',
-                imageWidth: 300,
-                imageHeight: 90,
+                imageWidth: 250,
+                imageHeight: 100,
                 title: 'Estado del mensaje de correo',
-                text: 'Su mensaje no pudo ser enviado'  
+                text: 'Tu mensaje no pudo ser enviado'  
             });
         }
     });    

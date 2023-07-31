@@ -104,6 +104,6 @@
                                         
         if(isset($_POST['submit'])) {
             require 'enviarCorreo.php';
-        }
+        }                
     }        
     

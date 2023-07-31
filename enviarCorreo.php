@@ -1,50 +1,23 @@
-<?php
+<?php    
     
     // Se determina si una variable ha sido declarada y su valor no es NULO
     // Además determina si una variable está vacía o no
     if (isset ($_POST['nombre']) && !empty ($_POST['nombre']) && isset ($_POST['correo']) && !empty($_POST['correo']) &&
         isset ($_POST['direccion']) && !empty($_POST['direccion']) && isset ($_POST['telcasa']) && !empty($_POST['telcasa']) &&
-        isset ($_POST['telcelular']) && !empty($_POST['telcelular']) && isset ($_POST['marca']) && !empty($_POST['marca']) &&
-        isset ($_POST['modelo']) && !empty($_POST['modelo']) && isset ($_POST['anio']) && !empty($_POST['anio']) &&
-        isset ($_POST['servicio']) && !empty($_POST['servicio']) && isset ($_POST['fecha_cita']) && !empty($_POST['fecha_cita']) &&
-        isset ($_POST['hora_cita']) && !empty($_POST['hora_cita']) && isset ($_POST['comentario']) && !empty($_POST['comentario']))
+        isset ($_POST['telcelular']) && !empty($_POST['telcelular']))
     {        
         // Se reciben los datos enviados desde el formulario
         $nombre = filter_input(INPUT_POST, 'nombre');
         $correo = filter_input(INPUT_POST, 'correo');
         $direccion = filter_input(INPUT_POST, 'direccion');
         $telcasa = filter_input(INPUT_POST, 'telcasa');
-        $telcelular = filter_input(INPUT_POST, 'telcelular');
-        $marca = filter_input(INPUT_POST, 'marca');
-        $modelo = filter_input(INPUT_POST, 'modelo');
-        $anio = filter_input(INPUT_POST, 'anio'); 
-        $servicios = filter_input(INPUT_POST, 'servicio');
-        $fecha_cita = filter_input(INPUT_POST, 'fecha_cita');
-        $hora_cita = filter_input(INPUT_POST, 'hora_cita');        
-        $comentario = filter_input(INPUT_POST, 'comentario');
+        $telcelular = filter_input(INPUT_POST, 'telcelular');        
         
         // Almacenamos en una variable los datos recibidos en el formulario, los cuales serán mostrados
         // como contenido en el cuerpo del mensaje de correo        
-//        $mensajeCorreo = "Nombre: ".$nombre."<br>Correo: ".$correo."<br>Direccion: ".$direccion."<br>Teléfono casa: ".$telcasa."<br>Teléfono celular: ".$telcelular.
-//                         "<br>Marca: ".$marca."<br>Modelo: ".$modelo."<br>Año: ".$anio."<br>Servicios: ".$servicios."<br>Fecha cita: ".$fecha_cita."<br>Hora cita: ".$hora_cita.
-//                         "<br><br>Comentario: ".$comentario;
-        
-        $mensajeCorreo .= "Nombre: ".$nombre."<br>Correo: ".$correo."<br>Direccion: ".$direccion."<br>Teléfono casa: ".$telcasa."<br>Teléfono celular: ".$telcelular.
-                          "<br>Marca: ".$marca."<br>Modelo: ".$modelo."<br>Año: ".$anio."<br>Fecha cita: ".$fecha_cita."<br>Hora cita: ".$hora_cita."<br>";
-                                 
-        $mensajeCorreo .= "Servicio(s): ";
-                                
-        if(!empty($_POST['servicio'])){
-
-            $servicios = $_POST['servicio'];
-
-            foreach($servicios as $t_servicios){
-                $mensajeCorreo .= $t_servicios.", ";
-            }                
-        }            
-                                                
-        $mensajeCorreo .= "<br><br>Comentario: ".$comentario;
-        
+        $mensajeCorreo = "Nombre: ".$nombre."<br>Correo: ".$correo."<br>Direccion: ".$direccion."<br>Teléfono casa: ".$telcasa.
+                         "<br>Teléfono celular: ".$telcelular."<br><h3><b>** Importante: contactar para programar cita de servicio **</h3></b>";
+                        
         // Archivo que se utiliza para llamar y cargar la librería
         require 'php/PHPMailerAutoload.php';
 
