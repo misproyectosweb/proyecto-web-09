@@ -30,20 +30,18 @@ Finalmente, se utiliza una librería JavaScript llamada **SweetAlert2** para mos
 
 A continuación se presentan algunas imágenes del sitio web brevemente descrito anteriormente:
 
-![imgLandingPage_1](https://github.com/misproyectosweb/proyecto-web-09/assets/98922137/d418030a-0ee0-4a60-bcf6-be9b04947370)
+![imgLandingPage_1](https://github.com/misproyectosweb/proyecto-web-09/assets/98922137/5ebcd102-6f80-44d6-9fa1-b842dfc3f804)
 **==========================================================================**
-![imgLandingPage_2](https://github.com/misproyectosweb/proyecto-web-09/assets/98922137/ebcb89f9-42f6-4d80-94cc-d6aa42c89db6)
+![imgLandingPage_2](https://github.com/misproyectosweb/proyecto-web-09/assets/98922137/e2f99984-fcd8-45d3-a44a-b6b973411f1d)
 **==========================================================================**
-![imgLandingPage_3](https://github.com/misproyectosweb/proyecto-web-09/assets/98922137/8b7173e2-05bf-495d-90f3-5568ffafd555)
+![imgLandingPage_3](https://github.com/misproyectosweb/proyecto-web-09/assets/98922137/1750aa0d-233a-416c-a8c6-dadcd397fa79)
 **==========================================================================**
-![imgLandingPage_4](https://github.com/misproyectosweb/proyecto-web-09/assets/98922137/16b949d9-8868-4813-8981-5b0257acb9ca)
+![imgLandingPage_4](https://github.com/misproyectosweb/proyecto-web-09/assets/98922137/cd031166-9c76-489a-9137-dc4a98a7ef81)
 **==========================================================================**
-![imgLandingPage_5](https://github.com/misproyectosweb/proyecto-web-09/assets/98922137/18094476-4bf2-4b1d-b28e-056a767fde3c)
-
-
-
-
-
-
-
-
+![imgLandingPage_5](https://github.com/misproyectosweb/proyecto-web-09/assets/98922137/9f76e800-c4d2-4392-8963-946ee8b3e5b6)
+**==========================================================================**
+![imgLandingPage_6](https://github.com/misproyectosweb/proyecto-web-09/assets/98922137/4b9e9752-46e9-4fcd-82d7-c44b0d6c5638)
+**==========================================================================**
+![imgLandingPage_7](https://github.com/misproyectosweb/proyecto-web-09/assets/98922137/f13eada2-5901-4ee1-9486-e28f2aa4617a)
+**==========================================================================**
+![imgLandingPage_8](https://github.com/misproyectosweb/proyecto-web-09/assets/98922137/04923409-d824-4012-af21-0aeb0ba959c4)
