@@ -8,16 +8,37 @@ and open the template in the editor.
     Author     : pcgc7
 */
 
-.texto, .titulo {
-    font-family: 'Montserrat Alternates', sans-serif;
+body {
+    font-family: "Roboto", sans-serif;
 }
 
+.titulo {    
+    font-weight: 400;
+    font-style: normal;   
+}
+.subtitulo {    
+    font-weight: 300;
+    font-style: normal;
+}
+.titulo {
+    font-size: 2em;
+}
+.subtitulo {
+    font-size: 1.25em;
+}
+.imgLogo {
+    width: 30%!important;
+}
+.w-75 {
+    width: 50%!important;
+} 
+.w-50 {
+    width: 30%!important;
+}
 .bi-facebook, .bi-twitter, .bi-whatsapp,
-.bi-instagram, .bi-youtube {
-    color: #fff;
-    font-size: 1.75rem;
+.bi-instagram, .bi-youtube {    
+    font-size: 1.75em;
 }
-
 .imgFondo {
     background-image: url('../imagenes/imgTaller_3.jpg');    
     background-size: cover;
@@ -25,8 +46,165 @@ and open the template in the editor.
     background-position: center; 
     min-height: 100vh;
 }
-
 .colorFondo {
     background-color: rgba(0, 0, 0, 0.4); 
     min-height: 100vh;
 }
+
+/****************************** MEDIA QUERIES ******************************/
+
+@media screen and (min-width: 1424px) and (max-width: 1647.98px) {
+    
+    .titulo {
+        font-size: 1.75em;
+    }
+    .subtitulo {
+        font-size: 1.25em;
+    }    
+    .bi-facebook, .bi-twitter, .bi-whatsapp,
+    .bi-instagram, .bi-youtube {    
+        font-size: 1.5em;
+    } 
+    .imgLogo {
+        width: 30%!important;
+    }
+    .w-75 {
+        width: 50%!important;
+    } 
+    .w-50 {
+        width: 30%!important;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1483.98px) {
+    .titulo {
+        font-size: 1.75em;
+    }
+    .subtitulo {
+        font-size: 1.25em;
+    }
+    .bi-facebook, .bi-twitter, .bi-whatsapp,
+    .bi-instagram, .bi-youtube {    
+        font-size: 1.5em;
+    }
+    .imgLogo {
+        width: 35%!important;
+    }
+    .w-75 {
+        width: 50%!important;
+    } 
+    .w-50 {
+        width: 30%!important;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .titulo {
+        font-size: 1.75em;
+    }
+    .subtitulo {
+        font-size: 1.25em;
+    }
+    .bi-facebook, .bi-twitter, .bi-whatsapp,
+    .bi-instagram, .bi-youtube {    
+        font-size: 1.25em;
+    }
+    .imgLogo {
+        width: 40%!important;
+    }
+    .w-75 {
+        width: 50%!important;
+    } 
+    .w-50 {
+        width: 30%!important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .titulo {
+        font-size: 1.75em;
+    }
+    .subtitulo {
+        font-size: 1em;
+    }
+    .bi-facebook, .bi-twitter, .bi-whatsapp,
+    .bi-instagram, .bi-youtube {    
+        font-size: 1.25em;
+    }
+    .imgLogo {
+        width: 45%!important;
+    }
+    .w-75 {
+        width: 50%!important;
+    } 
+    .w-50 {
+        width: 30%!important;
+    }    
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    .titulo {
+        font-size: 1.5em;
+    }
+    .subtitulo {
+        font-size: 1em;
+    }    
+    .bi-facebook, .bi-twitter, .bi-whatsapp,
+    .bi-instagram, .bi-youtube {    
+        font-size: 1em;
+    }
+    .w-75, .imgLogo {
+        width: 50%!important;
+    }
+    .w-50 {
+        width: 30%!important;
+    }  
+}
+
+@media screen and (max-width: 575.98px) {
+    .titulo {
+        font-size: 1.25em;
+    }
+    .subtitulo {
+        font-size: 1em;
+    }    
+    .bi-facebook, .bi-twitter, .bi-whatsapp,
+    .bi-instagram, .bi-youtube {    
+        font-size: 1em;
+    }
+    .btnBeneficios {
+        width: 60%;
+        font-size: 1em;
+    }    
+    .w-75, .imgLogo {
+        width: 50%!important;
+    }
+    .w-50 {
+        width: 30%!important;
+    }
+}
+
+
+/*.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}*/

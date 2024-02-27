@@ -1,11 +1,5 @@
 <?php
-
-    /* 
-     * To change this license header, choose License Headers in Project Properties.
-     * To change this template file, choose Tools | Templates
-     * and open the template in the editor.
-     */
-    
+        
     // Realizamos las validaciones para el formulario. Verificamos si existe algún elemento con el nombre 'submit'
     if(isset($_POST['nombre'])) {
         
@@ -100,10 +94,6 @@
         // Si se cumplió con la regla solicitada se muestra un mensaje de exito
         else {
             echo "<p class='correcto'><i class='fas fa-check'></i>&nbsp;&nbsp;Escribiste el número telefónico de tu celular de forma correcta</p>";
-        }
-                                        
-        if(isset($_POST['submit'])) {
-            require 'enviarCorreo.php';
-        }                
+        }                                                
     }        
     
