@@ -14,13 +14,15 @@ Esta Landing Page o página web de aterrizaje fue creada y desarrollada usando l
 La página contiene dos secciones:
 
 - **La primera sección:**
-  - Presenta una imagen que intentará convencer al cliente de que esta empresa es la mejor opción para el diagnóstico y cuidado del automóvil
+  -	Presenta una pantalla donde se muestra el servicio que se está ofreciendo al cliente
+  - Muestra un botón donde redirige al cliente a la segunda sección, el cual presenta los beneficios y servicios de la empresa
+  -	Un formulario para que el cliente pueda comunicarse con el personal encargado del taller y poder concretar una cita de servicio
 
 - **La segunda sección:**
   -	Presenta algunos de los beneficios que el cliente obtendrá al contratar los servicios del taller automotriz
-  -	Muestra un botón que le brinda acceso al sitio web del taller automotriz para que el cliente pueda conocer más acerca de la empresa
+  -	Muestra un botón que, al pulsarlo, le brinda acceso al sitio web del taller automotriz para que el cliente pueda conocer más acerca de la empresa
   -	Muestra un botón con un enlace para que el usuario pueda obtener el boletín mensual que pone la empresa a disposición del usuario para que conozca más información acerca del mundo automotriz
-  - Un formulario para que el cliente pueda comunicarse con el personal encargado del taller y poder concretar una cita de servicio
+
 
 Para el formulario de contacto se programaron validaciones tanto del lado del cliente, implementando mensajes personalizados con clases integradas en Bootstrap, los cuales brindan acceso a las API de validación de formularios en JavaScript; así como validaciones del lado del servidor programado con el lenguaje de programación **PHP.**
 
@@ -43,11 +45,11 @@ A continuación se presentan algunas imágenes del sitio web brevemente descrito
 **==========================================================================**
 ![02  LandingPage_04](https://github.com/misproyectosweb/proyecto-web-09/assets/98922137/dc22c4c2-f39a-40c2-b44a-070919687b00)
 **==========================================================================**
-![imgLandingPage_7](https://github.com/misproyectosweb/proyecto-web-09/assets/98922137/22251442-b57a-4daa-97fd-facd1727dbee)
+![boletinTaller](https://github.com/misproyectosweb/proyecto-web-09/assets/98922137/ef844073-c410-413e-8559-b661d4e8ff72)
 **==========================================================================**
 ![msjConfirmacion](https://github.com/misproyectosweb/proyecto-web-09/assets/98922137/91b5a837-bf76-4579-9947-cc6ebeb1bca9)
 **==========================================================================**
-![imgLandingPage_8](https://github.com/misproyectosweb/proyecto-web-09/assets/98922137/27511691-2505-4627-8129-fe805dadc927)
+![vistaCorreo](https://github.com/misproyectosweb/proyecto-web-09/assets/98922137/5053b60c-d808-47f7-9902-e943887922b1)
 **==========================================================================**
 ![msjError](https://github.com/misproyectosweb/proyecto-web-09/assets/98922137/4fda239b-ecb7-460f-8db8-5b816b65bddc)
 **==========================================================================**
