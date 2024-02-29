@@ -5,15 +5,14 @@ Este proyecto fue creado con las siguientes herramientas de nivel front-end y ba
 
 - **HTML:**	Permite crear la estructura del sitio web mediante etiquetas
 - **CSS:**	Para definir y crear la presentación del sitio web
-- **JavaScript:**	Añade características que permite establecer acciones interactivas al sitio web
 - **Bootstrap:**	Herramienta utilizada para complementar las hojas de estilo CSS y personalizar la apariencia del sitio web
 - **PHP:**	Favorece la conexión entre los servidores y la interfaz de usuario
 - **MySQL:**	Gestor de bases de datos para almacenar los datos del usuario después de completar el formulario
 
-
-
 Esta Landing Page o página web de aterrizaje fue creada y desarrollada usando la plataforma **NetBeans 12.0.** y el archivo **index.php** es el archivo que contiene la Landing Page
+
 La página contiene dos secciones:
+
 - **La primera sección:**
   - Presenta una imagen que intentará convencer al cliente de que esta empresa es la mejor opción para el diagnóstico y cuidado del automóvil
 
