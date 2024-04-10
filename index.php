@@ -52,7 +52,7 @@
                         </div>                        
                     </div>
                 </div>
-                <div class="row colorFondo justify-content-center py-4">
+                <div class="row colorFondo justify-content-center py-4 mb-4">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                         <div class="text-center">
                             <img src="imagenes/imgServTaller_2.png" class="img-fluid w-50" alt=""/>
@@ -115,7 +115,7 @@
             
             <!-- ****************************************************************************************************************************************** -->
             
-            <div id="beneficios" class="container-fluid bg-light">
+            <div id="beneficios" class="container-fluid">
                 <h1 class="mb-0 text-uppercase text-center font-weight-bold py-4">nuestros beneficios</h1>
                 <div class="row justify-content-center border-dark-50 border-bottom py-4">
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
@@ -155,7 +155,7 @@
                             </div>
                         </div>
                         <div>
-                            <img src="imagenes/imgServTaller_3.png" class="img-fluid w-75" alt=""/>
+                            <img src="imagenes/imgServTaller_5.png" class="img-fluid w-75" alt=""/>
                         </div>
                     </div>
                     
@@ -167,7 +167,7 @@
                             </div>
                         </div>
                         <div>
-                            <img src="imagenes/imgServTaller_5.png" class="img-fluid w-75" alt=""/>
+                            <img src="imagenes/imgServTaller_3.png" class="img-fluid w-75" alt=""/>
                         </div>
                     </div>
                 </div>
