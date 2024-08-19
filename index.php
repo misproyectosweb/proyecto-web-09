@@ -10,8 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">        
         <link rel="shortcut icon" type="image/x-icon" href="imagenes/iconotools.png"/>
                 
-        <!-- Utilizando google fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400&display=swap" rel="stylesheet">        
+        <!-- Utilizando google fonts -->              
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 
         <!-- Utilizando Bootstrap 4 -->
@@ -24,7 +23,7 @@
         <!-- Archivos css -->
         <link href="css/inicio.css" rel="stylesheet" type="text/css"/>                           
     </head>
-    <body>
+    <body class="vh-100">
         <?php
             if(isset($_POST['nombre'])) {
                 $nombre = filter_input(INPUT_POST, 'nombre');
@@ -37,40 +36,46 @@
         
         <!-- ****************************************************************************************************************************************** -->
         
-        <main>            
-            <div class="container-fluid imgFondo">
-                <div class="row" style="background-color: rgba(0, 0, 0, 0.4);">                    
-                    <div class="col-12 d-flex flex-row justify-content-between align-items-center py-4">
-                        <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 d-flex flex-row justify-content-start">
-                            <img src="imagenes/LogoTaller.png" class="imgLogo img-fluid" alt=""/>
-                        </div>  
-                        <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 d-flex flex-row justify-content-end">
-                            <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook text-white mx-4"></i></a>                                                
-                            <a href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp text-white mx-4"></i></a>
-                            <a href="http://instagram.com/" target="_blank"><i class="bi bi-instagram text-white mx-4"></i></a>
-                            <a href="http://www.youtube.com/" target="_blank"><i class="bi bi-youtube text-white mx-4"></i></a>
-                        </div>                        
+        <!-- Encabezado de la página -->
+        <header class="colorFondo py-4">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 d-flex flex-row justify-content-start">
+                        <img src="imagenes/LogoTaller.png" class="img-fluid w-25" alt=""/>
                     </div>
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 d-flex flex-row justify-content-end align-items-center">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="redes bi bi-facebook text-white mx-4"></i></a>                                                
+                        <a href="https://web.whatsapp.com/" target="_blank"><i class="redes bi bi-whatsapp text-white mx-4"></i></a>
+                        <a href="http://instagram.com/" target="_blank"><i class="redes bi bi-instagram text-white mx-4"></i></a>
+                        <a href="http://www.youtube.com/" target="_blank"><i class="redes bi bi-youtube text-white mx-4"></i></a>
+                    </div> 
                 </div>
-                <div class="row colorFondo justify-content-center py-4 mb-4">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            </div>            
+        </header>
+        
+        <!-- Sección principal de la página -->
+        <main class="colorFondo">            
+            <div class="container-fluid py-5">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-7">
                         <div class="text-center">
                             <img src="imagenes/imgServTaller_2.png" class="img-fluid w-50" alt=""/>
-                            <h1 class="mb-0 titulo text-white font-weight-bold pb-2">Confíe la reparación de su automóvil con el mejor equipo</h1>
-                            <h3 class="mb-0 subtitulo text-white pb-2">Registrate y reserva una cita de servicio con nosotros</h3>
-                            <div class="py-4">
-                                <a class="btnBeneficios btn btn-primary btn-lg" href="#beneficios" role="button">Conoce más de nuestros beneficios</a>
+                            <h1 class="mb-0 pb-3 text-white">Confíe el cuidado de su automóvil con el mejor equipo</h1>
+                            <h3 class="mb-0 pb-4 text-white">Registrate y reserva una cita de servicio con nosotros</h3>
+                            <div>
+                                <a class="btn btn-primary btn-lg mb-5" href="#beneficios" role="button">Conoce más de nuestros beneficios</a>
                             </div>                             
                         </div>
                     </div>
-                    
+                
                     <!-- ****************************************************************************************************************************************** -->
-                    
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                        <h1 class="mb-0 py-4 titulo text-center text-white font-weight-bold">¡Contáctanos!</h1>
-                        <h3 class="mb-0 pb-4 subtitulo text-center text-white pb-3">Es fácil, sencillo y rápido</h3>
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-5">                    
                         <form action="insertarDatos.php" method="post" id="formulario" class="needs-validation d-flex justify-content-center pb-4" novalidate>
-                            <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-8 border border-secondary rounded-lg text-dark font-weight-bold p-4" style="background: rgba(255,255,255,0.6)">
+                            <div class="col-11 col-sm-11 col-md-10 col-lg-10 col-xl-10 border border-secondary rounded-lg text-dark font-weight-bold p-4" style="background: rgba(255,255,255,0.6)">
+                                <h1 class="mb-0 pb-2 text-center text-dark font-weight-bold">¡Contáctanos!</h1>
+                                <h3 class="mb-0 text-center text-dark font-weight-bold">Es fácil, sencillo y rápido</h3>
+                                <hr class="border-secondary my-4">
                                 <div class="form-group">
                                     <label for="nombre">Nombre completo:</label>
                                     <input type="text" class="form-control" id="nombre" name="nombre" value="" required>
@@ -101,44 +106,46 @@
                                     <div class="valid-feedback is-valid">¡OK, válido!</div>
                                     <div class="invalid-feedback is-invalid">Completa el campo. No ingreses letras, espacios ni símbolos</div>
                                 </div>
-                                
-                                <input type="submit" id="boton" class="btn btn-primary mt-4" name="enviar" value="Solicita tu servicio de inmediato">
+
+                                <input type="submit" id="boton" class="btn btn-primary mt-4 btn-lg" name="enviar" value="Solicita tu servicio de inmediato">
                             </div>                                                         
-                            
+
                             <?php
-                                require 'validaciones.php';                                                                
+                            require 'validaciones.php';
                             ?>
                         </form> 
-                    </div>
+                    </div> 
                 </div>
             </div>
             
             <!-- ****************************************************************************************************************************************** -->
             
-            <div id="beneficios" class="container-fluid">
-                <h1 class="mb-0 text-uppercase text-center font-weight-bold py-4">nuestros beneficios</h1>
+            <div id="beneficios" class="container-fluid bg-light">
+                <div class="py-5">
+                    <h1 class="mb-0 text-center text-uppercase font-weight-bold py-3 border border-secondary rounded-pill w-75 mx-auto">nuestros beneficios</h1>
+                </div>
                 <div class="row justify-content-center border-dark-50 border-bottom py-4">
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <div class="col-11 col-sm-11 col-md-6 col-lg-6 col-xl-3">
                         <div class="d-flex flex-row align-items-center">                        
-                            <img src="imagenes/towTruckAzul48x48.png" class="mr-3">
+                            <img src="imagenes/towTruckAzul48x48.png" class="img-fluid mr-3">
                             <p class="text-secondary text-justify"><small class="font-weight-bold">Servicio de asistencia:</small><br><small>Despreocúpese si se le presenta alguna falla mecánica. Nuestro servicio de grúa está disponible cuando usted lo necesite, las 24 horas del día, los 7 días de la semana. Sin costo adicional</small></p>
                         </div>                                                
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <div class="col-11 col-sm-11 col-md-6 col-lg-6 col-xl-3">
                         <div class="d-flex flex-row align-items-center">
-                            <img src="imagenes/qualityAzul48x48.png" class="mr-3">
+                            <img src="imagenes/qualityAzul48x48.png" class="img-fluid mr-3">
                             <p class="text-secondary text-justify"><small class="font-weight-bold">Calidad en cada trabajo:</small><br><small>Procuramos siempre revisar cada trabajo realizado de manera minuciosa, no dejando ningún detalle sin terminar. Nos aseguramos ques usted reciba un trabajo de calidad</small></p>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <div class="col-11 col-sm-11 col-md-6 col-lg-6 col-xl-3">
                         <div class="d-flex flex-row align-items-center">
-                            <img src="imagenes/paperAzul48x48.png" class="mr-3">
+                            <img src="imagenes/paperAzul48x48.png" class="img-fluid mr-3">
                             <p class="text-secondary text-justify"><small class="font-weight-bold">Trámites con su aseguradora:</small><br><small>En nuestra oficina le ayudaremos a gestionar sus trámites con la empresa aseguradora a la que usted esta afiliado. Procuramos en todo momento eficacia y eficiencia en su trámite</small></p>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <div class="col-11 col-sm-11 col-md-6 col-lg-6 col-xl-3">
                         <div class="d-flex flex-row align-items-center">
-                            <img src="imagenes/workerAzul48x48.png" class="mr-3">
+                            <img src="imagenes/workerAzul48x48.png" class="img-fluid mr-3">
                             <p class="text-secondary text-justify"><small class="font-weight-bold">Personal especializado:</small><br><small>Nuestro personal altamente calificado, utiliza lo último en tecnología, para diagnosticar y reparar las partes de su automóvil que lo requieran</small></p>
                         </div>
                     </div>
@@ -148,10 +155,10 @@
                 
                 <div class="row">                                        
                     <div class="col-12 col-sm-12 col-md-12 col-lg-6 text-center border-dark-50 border-right">
-                        <div class="py-4">
-                            <h3 class="mb-0 subtitulo">Visítanos y conoce más de cerca nuestra empresa</h3>
+                        <div class="pt-5">
+                            <h3 class="mb-0">Visítanos y conoce más de cerca nuestra empresa</h3>
                             <div class="py-4">
-                                <a class="btn btn-primary" href="#" target="_blank" role="button">Accede a nuestro sitio web</a>                            
+                                <a class="btn btn-primary btn-lg" href="https://misproyectosweb.github.io/sitiowebtallerautos.github.io/" target="_blank" role="button">Accede a nuestro sitio web</a>
                             </div>
                         </div>
                         <div>
@@ -160,18 +167,18 @@
                     </div>
                     
                     <div class="col-12 col-sm-12 col-md-12 col-lg-6 text-center border-dark-50 border-right">    
-                        <div class="py-4">
-                            <h3 class="mb-0 subtitulo">Recibe gratis nuestro boletin informativo mensual</h3>
+                        <div class="pt-5">
+                            <h3 class="mb-0">Recibe gratis nuestro boletin informativo mensual</h3>
                             <div class="py-4">
-                                <a class="btn btn-primary" href="documentos/Boletin_mecanico_profesional.pdf" target="_blank" role="button">Consíguelo aquí</a>
+                                <a class="btn btn-primary btn-lg" href="documentos/Boletin_mecanico_profesional.pdf" target="_blank" role="button">Consíguelo aquí</a>
                             </div>
                         </div>
                         <div>
-                            <img src="imagenes/imgServTaller_3.png" class="img-fluid w-75" alt=""/>
+                            <img src="imagenes/imgServTaller_3.png" class="img-fluid w-75" alt=""/>                            
                         </div>
                     </div>
                 </div>
-            </div>                        
+            </div>
         </main>
         
         <!-- Código JavaScript aplicados al formulario -->
